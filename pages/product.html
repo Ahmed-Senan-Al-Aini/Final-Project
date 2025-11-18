@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Final project</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="../css/product.css" type="text/css" media="all" />
+</head>
+<body lang="en" onscroll="mm()">
+	<div class="containers">
+		<div class="header">
+			<header class="header">
+				<nav class="nav-1">
+					<ul>
+						<li>
+							<img class="icon" src="../image/PHONE icon white.png" alt="" style="width: 20px; height: 20px; filter: invert(100%); float: left;" />
+							+967 774 203 886
+						</li>
+						<li>
+							<img class="icon" src="../image/EMAIL icon black.png" alt="" style="width: 17px; " />
+							25160091@su.edu.ye
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="../image/Instagram icon black 2.png" alt="" class="icon" style="width: 20px;" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../image/WhatsApp icon black 2.png" alt="" class="icon" style="width: 20px;" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../image/Facebook icon black 2.png" alt="" style="width: 20px;" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../image/Map icon black.png" alt="" class="icon" style="width: 20px;" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../image/MessAge icon black.png" alt="" class="icon" style="width: 20px;" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../image/YouTube icon black 2.png" alt="" style="width: 20px;" />
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="nav-2">
+					<ul>
+						<li>
+							E -
+							<span class="name-pro">
+								<a href="../index.html">marketing</a>
+							</span>
+							
+						</li>
+					</ul>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<section class="products">
+			<h1> Our <span class="col-word"> Product </span> </h1>
+			<div id="searches">
+				<input type="search" id="search" placeholder="  Search of product ...">
+				<select id="filter">
+					<option value="all">All</option>
+					<option value="phone">Phones</option>
+					<option value="laptop">Laptop</option>
+					<option value="furniture">Furnitures</option>
+					<option value="weapons">Weapons</option>
+				</select>
+			</div>
+			<section class="electronic">
+				<h3 id="h3"> All<span class="col-word"> Products </span> </h3>
+				<div class="products-1" id="product-list">
+				</div>
+			</section>
+			<section class="car-el">
+				<h2> shopping cart </h2>
+				<div class="cart">
+					<table>
+						<thead>
+							<tr>
+								<td>Id</td>
+								<td>Name</td>
+								<td>Type</td>
+								<td>Price</td>
+								<td> </td>
+							</tr>
+						</thead>
+						<tbody id="cart-list">
+						</tbody>
+						<tfoot>
+							<td colspan="3">
+								<p>Total: <span id="total">0</span>$ </p>
+							</td>
+							<td colspan="2">
+								<button onclick="checkout()" style="padding: 5px; color: white; background-color: green; border-radius:10px;"> Complete the order </button>
+							</td>
+						</tfoot>
+					</table>
+				</div>
+			</section>
+			<footer class="footer_section">
+				<div class=" containers">
+					<p class="copy">
+						<b> <span id="displayYear"></span> &copy;All Right Reserved By</b>
+						Ahmed Senan Al-ini
+					</p>
+				</div>
+			</footer>
+	</div>
+	<script src="../js/product.js">
+	</script>
+	</section>
+</body>
+
+</html>
